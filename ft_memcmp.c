@@ -6,7 +6,7 @@
 /*   By: jourabi <jourabi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/13 12:52:44 by jourabi           #+#    #+#             */
-/*   Updated: 2026/11/14 12:12:53 by jourabi          ###   ########.fr       */
+/*   Updated: 2026/11/19 15:51:46 by jourabi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,12 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (sum);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+// #include <ctype.h>
+// int main(void)
+// {
+// 	printf("%d %d\n", ft_memcmp("abc", "abd", 3), ft_memcmp("abc", "abc", 3));
+// 	return (0);
+// }

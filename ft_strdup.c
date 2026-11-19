@@ -6,11 +6,11 @@
 /*   By: jourabi <jourabi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/13 14:57:43 by jourabi           #+#    #+#             */
-/*   Updated: 2026/11/13 15:11:09 by jourabi          ###   ########.fr       */
+/*   Updated: 2026/11/19 15:53:41 by jourabi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 char	*ft_strdup(const char *s)
 {
@@ -34,3 +34,16 @@ char	*ft_strdup(const char *s)
 	dup[i] = '\0';
 	return (dup);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+// #include <ctype.h>
+// int main(void)
+// {
+// 	char	*d;
+
+// 	d = ft_strdup("hello");
+// 	printf("%s\n", d);
+// 	free(d);
+// 	return (0);
+// }

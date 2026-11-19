@@ -6,7 +6,7 @@
 /*   By: jourabi <jourabi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/11 14:00:10 by jourabi           #+#    #+#             */
-/*   Updated: 2026/11/14 12:23:31 by jourabi          ###   ########.fr       */
+/*   Updated: 2026/11/19 15:55:42 by jourabi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,14 @@ char	*ft_strrchr(const char *s, int c)
 		return (NULL);
 	return ((char *)&s[last]);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+// #include <ctype.h>
+// int main(void)
+// {
+// 	char	*s = "hello";
+
+// 	printf("%s | %p\n", ft_strrchr(s, 'l'), (void *)ft_strrchr(s, 'z'));
+// 	return (0);
+// }

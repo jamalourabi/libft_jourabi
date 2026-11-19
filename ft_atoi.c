@@ -6,7 +6,7 @@
 /*   By: jourabi <jourabi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/13 13:24:44 by jourabi           #+#    #+#             */
-/*   Updated: 2026/11/14 12:59:44 by jourabi          ###   ########.fr       */
+/*   Updated: 2026/11/19 16:04:56 by jourabi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,10 @@ int	ft_atoi(const char *nptr)
 	}
 	return (total * sign);
 }
+
+// #include <stdio.h>
+// int main(void)
+// {
+// 	printf("%d %d %d\n", ft_atoi("  42"), ft_atoi("-123abc"), ft_atoi("+7"));
+// 	return (0);
+// }

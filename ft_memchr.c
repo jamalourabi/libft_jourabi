@@ -6,7 +6,7 @@
 /*   By: jourabi <jourabi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/11 14:12:51 by jourabi           #+#    #+#             */
-/*   Updated: 2026/11/14 10:51:33 by jourabi          ###   ########.fr       */
+/*   Updated: 2026/11/19 15:51:34 by jourabi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,14 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+// #include <ctype.h>
+// int main(void)
+// {
+// 	char	*s = "hello";
+
+// 	printf("%s\n", (char *)ft_memchr(s, 'l', 5));
+// 	return (0);
+// }

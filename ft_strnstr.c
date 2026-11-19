@@ -6,7 +6,7 @@
 /*   By: jourabi <jourabi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/13 13:03:21 by jourabi           #+#    #+#             */
-/*   Updated: 2026/11/14 12:49:23 by jourabi          ###   ########.fr       */
+/*   Updated: 2026/11/19 15:55:32 by jourabi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,13 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+// #include <ctype.h>
+// int main(void)
+// {
+// 	printf("%s | %p\n", ft_strnstr("hello world", "world", 11),
+// 		(void *)ft_strnstr("hello world", "world", 5));
+// 	return (0);
+// }

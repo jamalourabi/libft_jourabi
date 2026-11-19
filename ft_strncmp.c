@@ -6,7 +6,7 @@
 /*   By: jourabi <jourabi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/11 14:06:57 by jourabi           #+#    #+#             */
-/*   Updated: 2026/11/14 12:35:03 by jourabi          ###   ########.fr       */
+/*   Updated: 2026/11/19 15:55:21 by jourabi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,12 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (comp);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+// #include <ctype.h>
+// int main(void)
+// {
+// 	printf("%d %d\n", ft_strncmp("abc", "abd", 3), ft_strncmp("abc", "abd", 2));
+// 	return (0);
+// }

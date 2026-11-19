@@ -6,7 +6,7 @@
 /*   By: jourabi <jourabi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/11 11:44:26 by jourabi           #+#    #+#             */
-/*   Updated: 2026/11/13 16:58:19 by jourabi          ###   ########.fr       */
+/*   Updated: 2026/11/19 15:51:57 by jourabi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,15 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+// #include <ctype.h>
+// int main(void)
+// {
+// 	char	dst[10] = {0};
+
+// 	ft_memcpy(dst, "hello", 6);
+// 	printf("%s\n", dst);
+// 	return (0);
+// }

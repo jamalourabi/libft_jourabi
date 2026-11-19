@@ -6,7 +6,7 @@
 /*   By: jourabi <jourabi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/11 13:31:09 by jourabi           #+#    #+#             */
-/*   Updated: 2026/11/14 12:16:44 by jourabi          ###   ########.fr       */
+/*   Updated: 2026/11/19 15:56:25 by jourabi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,12 @@ int	ft_tolower(int c)
 		c += 32;
 	return (c);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+// #include <ctype.h>
+// int main(void)
+// {
+// 	printf("%c %c\n", ft_tolower('A'), ft_tolower('z'));
+// 	return (0);
+// }

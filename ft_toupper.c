@@ -6,7 +6,7 @@
 /*   By: jourabi <jourabi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/11 13:12:48 by jourabi           #+#    #+#             */
-/*   Updated: 2026/11/14 12:16:34 by jourabi          ###   ########.fr       */
+/*   Updated: 2026/11/19 15:56:40 by jourabi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,12 @@ int	ft_toupper(int c)
 		c -= 32;
 	return (c);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+// #include <ctype.h>
+// int main(void)
+// {
+// 	printf("%c %c\n", ft_toupper('a'), ft_toupper('Z'));
+// 	return (0);
+// }
